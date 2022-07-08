@@ -1,0 +1,13 @@
+project = "focal-balm-350606"
+account_id   = "serviceaccount123"
+display_name = "serviceaccount123"
+name         = "vm01"
+machine_type = "n1-standard-1"
+zone         = "us-central1-a"
+tags         = ["foo","fisclouds"]
+image = "debian-cloud/debian-9"
+ interface = "SCSI"
+network = "default"
+foo = "fisclouds"
+  metadata_startup_script = "echo hi > /test.txt"
+ scopes = ["cloud-platform"]

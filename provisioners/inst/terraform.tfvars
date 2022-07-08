@@ -1,0 +1,27 @@
+name          = "terraform-webservers"
+description   = "Terraform test instance group"
+name1         = "http"
+port1         = "8080"
+name2         = "https"
+port2         = "8443"
+zone          = "us-central1-a"
+name3         = "test"
+machine_type1 = "n2-standard-2"
+zone1         = "us-central1-a"
+
+tags1                    = ["foo", "bar"]
+image1                   = "debian-cloud/debian-9"
+interface1               = "SCSI"
+network1                 = "default"
+foo1                     = "bar"
+metadata_startup_script1 = "echo hi > /test.txt"
+name4                    = "test2"
+machine_type2            = "n2-standard-2"
+zone2                    = "us-central1-a"
+
+tags2                    = ["foo", "bar"]
+image2                   = "debian-cloud/debian-9"
+interface2               = "SCSI"
+network2                 = "default"
+foo2                     = "bar"
+metadata_startup_script2 = "echo hi > /test.txt"

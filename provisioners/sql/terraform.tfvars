@@ -1,0 +1,10 @@
+name = "privatenetwork1"
+name1          = "private-ip-address123"
+purpose       = "VPC_PEERING"
+address_type  = "INTERNAL"
+service = "servicenetworking.googleapis.com"
+name2             = "private-instance123"
+region           = "us-west1"
+database_version = "MYSQL_5_7"
+tier = "db-f1-micro"
+

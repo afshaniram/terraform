@@ -1,0 +1,20 @@
+module "staging_group" {
+  source = "/home/afshaniram05/module/instancegrp"
+  name   = var.name
+  zone   = var.zone
+  name1  = var.name1
+  port1  = var.port1
+  name2  = var.name2
+  port2  = var.port2
+  family  = var.family
+  project      = var.project
+  name3        = var.name3
+  machine_type = var.machine_type
+  zone1        = var.zone1
+  network      = var.network
+  name4        = var.name4
+  port_name    = var.port_name
+  protocol     = var.protocol
+  name5        = var.name5
+  request_path = var.request_path
+}

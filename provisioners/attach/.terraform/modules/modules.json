@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"vpc","Source":"file:///home/afshaniram05/module/attach","Dir":".terraform/modules/vpc"},{"Key":"default","Source":"file:///home/afshaniram05/module/attach","Dir":".terraform/modules/default"}]}

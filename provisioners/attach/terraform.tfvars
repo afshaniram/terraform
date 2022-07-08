@@ -1,0 +1,19 @@
+account_id   = "service-account"
+  display_name = "Service-Account"
+project     = "focal-balm-350606"
+name         = "test1"
+  machine_type = "n1-standard-1"
+  zone         = "us-central1-a"
+
+  tags = ["foo","bar"]
+image = "debian-cloud/debian-9"
+interface = "SCSI"
+ network = "network2"
+foo = "bar"
+metadata_startup_script = "echo hi > /test.txt"
+scopes = ["cloud-platform"]
+ name1    = "firewall1"
+ protocol = "tcp"
+    ports    = ["80", "8080", "1000-2000"]
+source_tags = ["foo","bar"]
+ name2 = "network2"

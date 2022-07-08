@@ -1,0 +1,6 @@
+name     = "my-database"
+name1             = "my-database-instance"
+region           = "us-central1"
+database_version = "POSTGRES_9_6"
+tier = "db-f1-micro"
+deletion_protection  = "true"
